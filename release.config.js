@@ -1,5 +1,5 @@
 module.exports = {
-    branches: "main",
+    branches: "dev",
     repositoryUrl: "https://github.com/pupueddy/actionstest.git",
     plugins: [
       '@semantic-release/commit-analyzer',
