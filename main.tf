@@ -6,6 +6,7 @@ resource "aws_vpc" "actions" {
     cidr_block = "10.0.0.0/16"
 
     tags = {
-        Name = "Clas30"
+        Name = "Class30"
+        Team = "DevOps"
     }
 }
