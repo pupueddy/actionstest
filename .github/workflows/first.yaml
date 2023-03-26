@@ -28,7 +28,7 @@ jobs:
       - name: Terraform plann
         run: terraform plan
       - name: release
-        run: npm semantic-release
+        run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN}}
     #  - name: Terraform apply 
