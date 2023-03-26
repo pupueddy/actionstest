@@ -25,7 +25,7 @@ jobs:
         run: terraform init
       - name: Terraform validate
         run: terraform validate
-      - name: Terraform plann
+      - name: Terraform plan
         run: terraform plan
       - name: release
         run: npx semantic-release
